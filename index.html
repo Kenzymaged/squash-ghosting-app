@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squash Ghosting App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Squash Ghosting Training</h1>
+        <div class="control">
+            <label for="speed">Speed (Time Between Shots): <span id="speed-value">5</span> seconds</label>
+            <input id="speed" type="range" min="5" max="25" value="5">
+        </div>
+        <div class="control">
+            <label for="sets">Number of Sets: <span id="sets-value">1</span></label>
+            <input id="sets" type="range" min="1" max="10" value="1">
+        </div>
+        <div class="control">
+            <label for="shots">Number of Shots per Set: <span id="shots-value">6</span></label>
+            <input id="shots" type="range" min="6" max="21" value="6">
+        </div>
+        <button id="start-btn">Start Training</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
